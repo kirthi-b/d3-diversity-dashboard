@@ -549,9 +549,13 @@ function stopSlider() {
         <div>
              <div class="flex gap-5">
             <div class="static">
-              <div class="pb-5 font-bold text-center">
+              <div class="font-bold text-center pb-0">
                 % of Foreign-Born Population
               </div>
+              <br>
+              <p class="font-mono pb-5 text-size-[10px] text-[#aaa] text-center">
+            (hover over a state for more info)</p>
+
               <svg id="map-legend" class="relative -top-5 left-37"></svg>
               <svg id="map-graph" class="absolute"></svg>
               <svg id="map-graph-init" class="relative" />
@@ -564,77 +568,47 @@ function stopSlider() {
           <div :style="{opacity: accordions[0].value ? '1' : '0'}" class="absolute font-sans text-[13px] leading-relaxed transition-all duration-500 opacity-100">
             <b class="text-[#7e6cfa] font-mono text-size-[20px]">Languages Spoken at Home</b>
             <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+            <p>Spanish is the language that is most frequently spoken by immigrants who are 5 years old and older. Spanish is spoken at home by 42% of immigrants in the United States. English alone (only 17%) is the only language other than Spanish that immigrants speak at home. This is followed by Chinese (6%), Hindi (5%), Filipino/Tagalog (4%), and French (3%). Other languages have evolved in the US, most notably creoles and sign languages. The U.S. population speaks or signs in 430 different languages, 177 of which are local dialects. At least 52 of the 57 official languages of the nation are now extinct.</p>
             <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+            <p>In 2018, 53% of immigrants aged 5 and older were fluent English speakers, either speaking it very well (37%) or only speaking English at home (17%). </p>
             <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="font-mono text-size-[10px] text-[#aaa]">
+            Spanish (and Spanish Creole) has not been included in the bar chart as its usage rate is incomparably higher than all other languages.</p>
           </div>
 
           <div :style="{opacity: accordions[1].value ? '1' : '0'}" class="absolute font-sans text-[13px] leading-relaxed transition-all duration-500 ease-in-out opacity-100">
             <b class="text-[#7e6cfa] font-mono text-size-[20px]">Immigration Status</b>
             <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+            <p>Not every legal permanent resident opts to become a citizen of the United States. After fulfilling certain qualifications, such as having resided in the United States for five years, those who desire to do so may submit an application. About 800,000 immigrants petitioned for citizenship during the 2019 fiscal year. Although the number of applications for naturalization has increased recently, the annual totals are still less than the 1.4 million applications submitted in 2007.</p>
             <br>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+              Most immigrants who are eligible for citizenship submit applications to become citizens. However, the rate of citizenship for legal immigrants from Mexico is the lowest overall. According to a 2015 Pew Research Center poll, Mexican-born green card holders' top justifications for not naturalizing include linguistic and interpersonal hurdles, and financial obstacles. </p>
             <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
 
           <div :style="{opacity: accordions[2].value ? '1' : '0'}" class="absolute font-sans text-[13px] leading-relaxed transition-all duration-500 animate-fade-in opacity-100">
             <b class="text-[#7e6cfa] font-mono text-size-[20px]">Educational Attainment</b>
             <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+            <p>Diverse immigrant groups in the country, especially those from other regions of the world, have different levels of education. Compared to Americans who were born here, immigrants from Mexico and Central America are less likely to have completed high school (54% and 47%, respectively, compared to 8% of Americans who were born here). But when it came to having a bachelor's or higher degree, immigrants from every region—aside from Mexico, the Caribbean, and Central America—were as likely as or perhaps more so than U.S.-born residents. </p>
             <br>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
-            <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              South Asian immigrants were the ones most likely to have a bachelor's degree or above among all immigrants (71%). The least likely immigrants to hold a bachelor's degree or above were those from Mexico (7%) and Central America (11%) respectively.</p>
+              <br>
+              <p class="font-mono text-size-[10px] text-[#aaa]">
+            For more info on the data aggregation:<br><a href="https://www.pewresearch.org/hispanic/wp-content/uploads/sites/5/2020/08/Pew-Research-Center_Countries-by-Regional-Classification_Statistical-Portrait-of-the-Foreign-Born-2018.pdf" class="underline">Countries by Regional Classification</a>.</p>
+
           </div>
 
           <div :style="{opacity: accordions[3].value ? '1' : '0'}" class="relative font-sans text-[13px] leading-relaxed transition-all duration-500 ease-in-out opacity-100">
             <b class="text-[#7e6cfa] font-mono text-size-[20px]">Home Ownership</b>
             <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+            <p>Compared to native-born people, immigrants are less likely to own properties. Compared to more than two-thirds of those who are native-born, just around half of households who are foreign-born are homeowners.</p>
             <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            dolor explicabo quae adipisci sequi odio minima eum neque quas nisi
-            sint atque iste qui eos harum officia vitae maxime accusantium. </p>
+            <p>Immigrants are disproportionately minorities and exhibit traits linked to lower rates of homeownership, such as lower income and educational levels, which may be one cause of the wide difference. Particularly, compared to 20.2% of native-born homes, 75.7% of foreign-born households are Latino, Black, or Asian. Another factor is that it takes time for immigrants to become homeowners; after around 20 years in the country, the chance of an immigrant becoming a homeowner is equal to that of a native-born homeowner.</p>
             <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p class="font-mono text-size-[10px] text-[#aaa]">
+            For more info on the data aggregation:<br><a href="https://www.pewresearch.org/hispanic/wp-content/uploads/sites/5/2020/08/Pew-Research-Center_Countries-by-Regional-Classification_Statistical-Portrait-of-the-Foreign-Born-2018.pdf" class="underline">Countries by Regional Classification</a>.</p>
+
           </div>
         </div>
       </div>
@@ -716,6 +690,8 @@ function stopSlider() {
         <apexchart class="relative pt-0 pr-3 pl-3" height="350" :options="HomeOptions" :series="Homeseries[year]"></apexchart>
         
     </Accordion>
+    <p class="font-mono text-size-[10px] text-[#aaa] text-right">
+            Data by the <a href="https://www.pewresearch.org/hispanic/2020/08/20/facts-on-u-s-immigrants-trend-data/" class="underline">Pew Research Center</a> | Map by <a href="https://www.kirthi.cargo.site/" class="underline">Kirthi Balakrishnan</a></p>
     </div>
   </div>
 
