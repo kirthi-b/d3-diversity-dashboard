@@ -6,12 +6,11 @@
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="#1a1a1a"/>
-  <!-- friendly little hexagon -->
-  <path fill="url(#g)" d="M32 11 50.5 21.9v21.8L32 54.6 13.5 43.7V21.9z"/>
-  <!-- eyes -->
-  <circle cx="26" cy="31" r="2.7" fill="#1a1a1a"/>
-  <circle cx="38" cy="31" r="2.7" fill="#1a1a1a"/>
-  <!-- smile -->
-  <path d="M25.5 37.5 Q32 43.5 38.5 37.5" fill="none" stroke="#1a1a1a"
+  <!-- hexagon centred at (32, 32.75) -->
+  <path fill="url(#g)" d="M32 11 50.5 21.9v21.7L32 54.5 13.5 43.6V21.9z"/>
+  <!-- face, centred on the hexagon -->
+  <circle cx="26" cy="29" r="2.7" fill="#1a1a1a"/>
+  <circle cx="38" cy="29" r="2.7" fill="#1a1a1a"/>
+  <path d="M25.5 35 Q32 40.5 38.5 35" fill="none" stroke="#1a1a1a"
         stroke-width="2.6" stroke-linecap="round"/>
 </svg>
