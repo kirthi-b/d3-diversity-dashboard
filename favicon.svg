@@ -1,10 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9EDFE4"/>
-      <stop offset="1" stop-color="#7E6CFA"/>
+      <stop offset="0" stop-color="#A6ECEC"/>
+      <stop offset="1" stop-color="#7B4FF5"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="#1a1a1a"/>
-  <path fill="url(#g)" d="M32 12 50 22.4v20.8L32 53.6 14 43.2V22.4z"/>
+  <!-- friendly little hexagon -->
+  <path fill="url(#g)" d="M32 11 50.5 21.9v21.8L32 54.6 13.5 43.7V21.9z"/>
+  <!-- eyes -->
+  <circle cx="26" cy="31" r="2.7" fill="#1a1a1a"/>
+  <circle cx="38" cy="31" r="2.7" fill="#1a1a1a"/>
+  <!-- smile -->
+  <path d="M25.5 37.5 Q32 43.5 38.5 37.5" fill="none" stroke="#1a1a1a"
+        stroke-width="2.6" stroke-linecap="round"/>
 </svg>
